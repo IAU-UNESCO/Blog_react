@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import Posts from "./components/Posts.js";
+// import SideContent from "./components/SideContent.js";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <>
+      <header></header>
+
+      <main>
+        <section
+          className="container-fluid d-flex justify-content-center align-items-center bg-black"
+          style={{ height: "30vh" }}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          <div className="row text-center">
+            <h1 className="text-white">Blog</h1>
+          </div>
+        </section>
+
+        <div className="row">
+          <div className="col col-12 col-lg-10">
+            <Posts />
+          </div>
+          <div className="col col-lg-2">
+            {/* <SideContent /> */}
+          </div>
+        </div>
+      </main>
+
+      <footer></footer>
+    </>
   );
 }
 

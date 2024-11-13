@@ -4,8 +4,13 @@ Used `npx create-react-app blog_react` to create a react.js template
 
 ## Imported Bootstrap
 
-1. Typed `npm install bootstrap` into the powershell
-2. Added `import 'bootstrap/dist/css/bootstrap.css';` to the index.js file 
+1. Ran `npm install bootstrap` in the powershell
+2. Added `import 'bootstrap/dist/css/bootstrap.css';` to the index.js file
+
+### basic_layout branch
+
+3. Ran `npm install bootstrap-icons` in the powershell
+4. Added `import "bootstrap-icons/font/bootstrap-icons.css";` to the index.js file
 
 ### `npm start`
 
