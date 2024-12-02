@@ -1,5 +1,6 @@
 import Posts from "./components/Posts.js";
 import SideContent from "./components/SideContent.js";
+import InsertImgTxt from "./components/InsertImgTxt.js";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
               <SideContent />
             </div>
           </div>
+          <InsertImgTxt />
         </div>
       </main>
 

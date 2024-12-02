@@ -1,3 +1,7 @@
+/*
+THIS FILE IS OPTIONAL
+*/
+
 import React from "react";
 
 // This entire component is just a placeholder for now
