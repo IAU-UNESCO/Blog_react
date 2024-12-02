@@ -21,12 +21,8 @@ function App() {
           <div className="row">
             <div className="col col-12 col-lg-8">
               <Posts />
-              <Posts />
-              <Posts />
             </div>
             <div className="col col-lg-4">
-              <SideContent />
-              <SideContent />
               <SideContent />
             </div>
           </div>
